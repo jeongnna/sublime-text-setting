@@ -26,7 +26,6 @@
     "ignored_packages":
     [
         "Markdown",
-        "Vintage"
     ],
 
     // Mac only: When files are opened from finder, or by dragging onto the
@@ -50,4 +49,6 @@
 
     // Set to true to removing trailing white space on save
     "trim_trailing_white_space_on_save": true,
+
+    "vintage_ctrl_keys": true
 }
