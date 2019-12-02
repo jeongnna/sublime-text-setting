@@ -1,54 +1,18 @@
 {
-    // Enable auto complete to be triggered automatically when typing.
-    "auto_complete": false,
-
-    // By default, auto complete will commit the current completion on enter.
-    // This setting can be used to make it complete on tab instead.
-    // Completing on tab is generally a superior option, as it removes
-    // ambiguity between committing the completion and inserting a newline.
-    "auto_complete_commit_on_tab": true,
-
-    // Controls auto pairing of quotes, brackets etc
-    "auto_match_enabled": false,
-
-    // Set to true to ensure the last line of the file ends in a newline
-    // character when saving
-    "ensure_newline_at_eof_on_save": true,
-
-    // Note that the font_face and font_size are overridden in the platform
-    // specific settings file, for example, "Preferences (Linux).sublime-settings".
-    // Because of this, setting them here will have no effect: you must set them
-    // in your User File Preferences.
-    "font_size": 15,
-
-    // List any packages to ignore here. When removing entries from this list,
-    // a restart may be required if the package contains plugins.
-    "ignored_packages":
-    [
-        "Markdown",
-    ],
-
-    // Mac only: When files are opened from finder, or by dragging onto the
-    // dock icon, this controls if a new window is created or not.
-    "open_files_in_new_window": false,
-
-    // Set to false to disable scrolling past the end of the buffer.
-    // On Mac, this value is overridden in the platform specific settings, so
-    // you'll need to place this line in your user settings to override it.
-    "scroll_past_end": true,
-
-    // The number of spaces a tab is considered equal to
-    "tab_size": 4,
-
-    // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": true,
-
-    // Trims white space added by auto_indent when moving the caret off the
-    // line.
-    "trim_automatic_white_space": false,
-
-    // Set to true to removing trailing white space on save
-    "trim_trailing_white_space_on_save": true,
-
-    "vintage_ctrl_keys": true
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Markdown"
+	],
+	"open_files_in_new_window": false,
+	"scroll_past_end": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_ctrl_keys": true
 }
